@@ -5,15 +5,25 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700,600,400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://d144bz4d6i1vob.cloudfront.net/firmapi/favicon.png" rel="icon" type="image/png"/>
     <style>
+    body {
+      padding-bottom: 30px;
+    }
     .container {
       max-width: 800px;
     }
     .logo {
       width: 200px;
       margin: 100px 0 40px 0;
+    }
+    .logo-service {
+      width: 285px;
+      margin-left: 35px;
+    }
+    .service-description {
+      color: #aaa;
     }
     .content {
       font-size: 18px;
@@ -31,7 +41,7 @@
     a {
       color: #1475C9;
     }
-    a:hover {
+    a:hover, a:focus {
       color: #1475C9;
       text-decoration: none;
       border-bottom: 1px solid #1475C9;
@@ -56,12 +66,23 @@
   <body>
     <div class="container">
       <img class="logo" src="https://d144bz4d6i1vob.cloudfront.net/firmapi/firmapi_home.png" alt="Firmapi">
-      <div class="alert alert-warning">Our French company search engine is closing.<br/>Please discover our new service <a href="https://emailhunter.co" target="_blank">Email Hunter</a>.</div>
       <div class="content">
-        <p>Our mission is to drive business growth by making company data more open.</p>
-        <p>Firmapi is a French company founded in April 2014 by <a href="https://twitter.com/fgrante">François Grante</a> and <a href="https://twitter.com/antoinefink">Antoine Finkelstein</a>.</p>
-        <h2>Jobs</h2>
-        <p>We are looking for highly talented people to build awesome products and make them grow. If you think yo can help, please drop us a line at <a href="mailto:jobs@firmapi.com">jobs@firmapi.com</a>.</p>
+        <p><strong>Our mission is to drive business growth by making company data more open.</strong></p>
+        <p>Firmapi is a French company founded in April 2014 by <a href="https://twitter.com/fgrante">François Grante</a> and <a href="https://twitter.com/antoinefink">Antoine Finkelstein</a>. We build online services centered around distributing company data at scale.</p>
+
+        <h2>Services</h2>
+
+        <img class="logo-service" src="https://emailhunter-assets.s3.amazonaws.com/logo.png">
+        <p class="service-description">Direct access to all the web's email addresses.</p>
+
+        <h2>Jobs <span class="label label-success">We're hiring!</span></h2>
+
+        <p>We are looking for a new member to join our team. Your profile should be technical with the ability to work both on the front and backends of our applications. Knowledge of Ruby and Go is a plus but not mandatory. Experience using RDMS would be great.</p>
+
+        <p>Working remotely is possible but limited to a few timezones away from France. You should also be able to come in Lyon, France from time to time.</p>
+
+        <p>If you think you would be the right fit for our team and culture or if you want to know more about us, please drop us a line at <a href="mailto:jobs@firmapi.com">jobs@firmapi.com</a>.</p>
+
         <h2>Contact</h2>
         <p>
           <div class="contact-info">
